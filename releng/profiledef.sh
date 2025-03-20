@@ -3,7 +3,7 @@
 
 iso_name="laniakea"
 iso_label="LANIAKEA_$(date --date="@${SOURCE_DATE_EPOCH:-$(date +%s)}" +%Y%m)"
-iso_publisher="LaniakeaOS <https://www.laniakeaos.com>"
+iso_publisher="Piscetus <https://www.laniakeaos.com>"
 iso_application="Laniakea Live/Rescue DVD"
 iso_version="$(date --date="@${SOURCE_DATE_EPOCH:-$(date +%s)}" +%Y.%m.%d)"
 install_dir="laniakea"
